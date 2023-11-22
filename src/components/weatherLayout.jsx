@@ -28,40 +28,64 @@ const WeatherLayout = ({ weatherData }) => {
           borderRadius="25px"
         >
           <Box bg="black" height="120px" padding="20px 20px">
-            <Text background="InactiveBorder" marginBottom="1rem">
+            <Text
+              background="InactiveBorder"
+              marginBottom="1rem"
+              color="#7A7A7A"
+            >
               Feels like <br />
             </Text>
             {Math.round(weatherData?.main?.feels_like)}°
           </Box>
           <Box bg="black" height="120px" padding="20px 20px">
-            <Text background="InactiveBorder" marginBottom="1rem">
+            <Text
+              background="InactiveBorder"
+              marginBottom="1rem"
+              color="#7A7A7A"
+            >
               Min Temp <br />
             </Text>
             {Math.round(weatherData?.main?.temp_min)}°C
           </Box>
           <Box bg="black" height="120px" padding="20px 20px">
-            <Text background="InactiveBorder" marginBottom="1rem">
+            <Text
+              background="InactiveBorder"
+              marginBottom="1rem"
+              color="#7A7A7A"
+            >
               Max Temp <br />
             </Text>
             {Math.round(weatherData?.main?.temp_max)}°C
           </Box>
           <Box bg="black" height="120px" padding="20px 20px">
-            <Text background="InactiveBorder" marginBottom="1rem">
+            <Text
+              background="InactiveBorder"
+              marginBottom="1rem"
+              color="#7A7A7A"
+            >
               Humidity <br />
             </Text>
             {weatherData?.main?.humidity}%
           </Box>
           <Box bg="black" height="120px" padding="20px 20px">
-            <Text background="InactiveBorder" marginBottom="1rem">
+            <Text
+              background="InactiveBorder"
+              marginBottom="1rem"
+              color="#7A7A7A"
+            >
               Visibility <br />
             </Text>
             {weatherData?.visibility / 1000} km
           </Box>
           <Box bg="black" height="120px" padding="20px 20px">
-            <Text background="InactiveBorder" marginBottom="1rem">
+            <Text
+              background="InactiveBorder"
+              marginBottom="1rem"
+              color="#7A7A7A"
+            >
               Wind Speed <br />
             </Text>
-            {weatherData?.wind?.speed} meter/sec
+            {weatherData?.wind?.speed} m/sec
           </Box>
         </SimpleGrid>
       )}
