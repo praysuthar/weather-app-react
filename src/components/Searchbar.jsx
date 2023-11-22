@@ -18,6 +18,7 @@ const Searchbar = ({ onSearch }) => {
       marginLeft="35vw"
       marginTop="2rem"
       maxHeight="2.5rem"
+      maxWidth="65dvw"
     >
       <Input
         colorScheme="blackAlpha"
@@ -30,6 +31,7 @@ const Searchbar = ({ onSearch }) => {
         maxWidth="25vw"
         onChange={handleInput}
         value={city}
+        fontSize="large"
       />
       <Button
         rightIcon={<GoSearch />}

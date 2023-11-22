@@ -4,6 +4,7 @@ import WeatherLayout from './components/weatherLayout';
 import Searchbar from './components/Searchbar';
 import Sidebar from './components/Sidebar';
 import { useState } from 'react';
+import './app.css';
 
 function App() {
   // eslint-disable-next-line
